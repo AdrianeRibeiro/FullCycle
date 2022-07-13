@@ -1,7 +1,7 @@
 ## Tecnologias:
 
 - [x] Jest
-- [ ] Postgresql
+- [x] Postgresql
 
 ## Comandos:
 
@@ -13,3 +13,7 @@
 
 - [x] Rodar os testes automatizados: 
   - ```npx jest```
+
+## Material de Estudo
+
+- [x] https://www.youtube.com/watch?v=JufRR4GGkgA
