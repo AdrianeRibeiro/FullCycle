@@ -4,11 +4,14 @@ import ProductModel from "../../database/product.model"
 import { productRouter } from "../routes/products.routes"
 
 export const app: Express = express()
+
 app.use(express.json())
 app.use("/products", productRouter)
 
+export let sequelize: Sequelize
+
 async function setupDb() {
-  const sequelize = new Sequelize({
+  sequelize = new Sequelize({
     dialect: "sqlite",
     storage: ":memory:",
     logging: false,

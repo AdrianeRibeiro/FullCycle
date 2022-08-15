@@ -33,6 +33,6 @@ describe("Product repository test", () => {
     expect(productResult.id).toBe("1")
     expect(productResult.name).toBe("Product 1")
     expect(productResult.cost).toBe(100)
-    expect(productResult.salesPrice).toBe(2)
+    expect(productResult.salesPrice).toBe(300)
   })
 })
