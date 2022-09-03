@@ -1,5 +1,5 @@
-import Command from "./Command";
-import Observer from "./Observer";
+import Command from "../../application/command/Command";
+import Observer from "../../application/command/Observer";
 
 export default class Publisher {
   observers: Observer[]
