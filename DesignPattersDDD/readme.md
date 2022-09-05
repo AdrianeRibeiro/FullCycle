@@ -7,7 +7,7 @@
 
 - não tem regra de negócio
 - interage com o domínio
-- 
+
 
 # Referência
 
