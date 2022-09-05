@@ -18,6 +18,9 @@
 - Exemplo: quero alterar um pedido, escolho a ordem e faço a mudança.
 - Precisa de um nome. Sempre vai ser o ponto de entrada do agregado.
 
+# Exemplo Modelagem
+![image](https://user-images.githubusercontent.com/52608531/188514650-a717c9df-f60d-47bb-91ab-5fbd2d1e9862.png)
+
 
 # Referência
 
