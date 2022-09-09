@@ -3,5 +3,6 @@
 - entity: regras independentes 
 - open/close: aberto para extensão e fechado para modificação
 - Se Cigar/Beer/Water é subclasse de Item, os objetos do tipo Item podem ser substituidos por instancias de Cigar/Beer/Water SEM QUEBRAR O PROGRAMA
-
-1:14 min
+- Domain Service: agregados. Acessa a ordem para ver os itens. Serviço que roda na camada de domínio. Não tem a ver com persistência
+- Application Service: está na camada da aplicação. Orquestra tudo que está acontecendo. Pega domínio, dto, trabalha com a persistência
+- Repositório é serviço de domínio. Cria um repositório por agregado
